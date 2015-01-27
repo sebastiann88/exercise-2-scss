@@ -34,6 +34,13 @@ h3 {
     @include button($primary, #fff, $primary-dark);
 }
 
+.main-button {
+    @include button($dark-blue, $white);
+}
+
+.secondary-button {
+    @include button($light-blue, $white);
+}
 
 
 .button {
