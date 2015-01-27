@@ -1,14 +1,35 @@
 /* This file contains all your mixins */
 
-@mixin button($bg-color, $color, $hover-color){
-    background-color: $bg-color;
-    border-radius: 3px;
-    padding: .5em 1em;
-    margin: 1em;
+@mixin button {
     display: inline-block;
+    background-color:#1f4474;
+    border-radius: 10px;
+    padding: 0em 0.5em;
+    margin: 0.3em 0.5em;
+    color: #fff;
+    border: 0;
+    line-height: 1.5em;
     text-decoration: none;
-    color: $color;
     &:hover{
-        background-color: $hover-color;   
+        color: #1f4474;
+        background-color: #fff;
+        text-decoration:none;   
+    }
+}
+
+@mixin button2 {
+    display: inline-block;
+    background-color:#5f93d0;
+    border-radius: 10px;
+    padding: 0em 0.5em;
+    margin: 0em 0.5em;
+    color: #fff;
+    border: 0;
+    line-height: 1.5em;
+    text-decoration: none;
+    &:hover {
+    color: #5f93d0;
+    background-color: #fff;
+    text-decoration:none;
     }
 }

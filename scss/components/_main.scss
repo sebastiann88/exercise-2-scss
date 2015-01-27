@@ -30,6 +30,10 @@ h3 {
     font-family: Helvetica, sans-serif;
 }
 
+.primary-btn {
+    @include button($primary, #fff, $primary-dark);
+}
+
 .button {
     display: inline-block;
     background-color:#1f4474;
