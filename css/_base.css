@@ -1,6 +1,3 @@
 /* are placeholders for storing information that you want to reuse throughout your styles.
 You can store things like color, font stacks, or any css vaue you think you might want to reuse.
 SCSS uses the '$' symbol to declare variables. */
-
-$dark: #1f4474;
-$light: #5f93d0;

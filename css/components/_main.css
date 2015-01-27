@@ -1,0 +1,109 @@
+/* line 1, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+html {
+  padding: 0em; }
+
+/* line 5, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+body {
+  padding: 0em;
+  margin: 0em; }
+
+/* line 10, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+h1 {
+  font-size: 2.5em;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+  margin: 0em; }
+
+/* line 19, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+h2 {
+  font-size: 1.4em;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: Helvetica, sans-serif; }
+
+/* line 26, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+h3 {
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Helvetica, sans-serif; }
+
+/* line 33, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+.button {
+  display: inline-block;
+  background-color: #1f4474;
+  border-radius: 10px;
+  padding: 0em 0.5em;
+  margin: 0.3em 0.5em;
+  color: #fff;
+  border: 0;
+  line-height: 1.5em;
+  text-decoration: none; }
+
+/* line 45, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+.button:hover {
+  color: #1f4474;
+  background-color: #fff;
+  text-decoration: none; }
+
+/* line 52, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+.button2 {
+  display: inline-block;
+  background-color: #5f93d0;
+  border-radius: 10px;
+  padding: 0em 0.5em;
+  margin: 0em 0.5em;
+  color: #fff;
+  border: 0;
+  line-height: 1.5em;
+  text-decoration: none; }
+
+/* line 64, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+.button2:hover {
+  color: #5f93d0;
+  background-color: #fff;
+  text-decoration: none; }
+
+/* line 70, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+.row {
+  display: inline-block; }
+
+/* line 74, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+.row2 {
+  display: inline-block;
+  margin: 1em 2em;
+  padding: 0.2em; }
+
+/* line 80, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+.float-left {
+  float: left; }
+
+/* line 84, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+.header {
+  background-color: #5f93d0;
+  margin: 0em;
+  padding: 2em; }
+
+/* line 90, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+.white {
+  color: white; }
+
+/* line 94, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+.center {
+  margin: auto 40%; }
+
+/* line 98, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+li {
+  list-style-type: none;
+  text-decoration: none; }
+
+/* line 103, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+a {
+  text-decoration: none; }
+
+/* line 107, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/_main.scss */
+.border {
+  border-top: solid 0.15em #5f93d0;
+  padding: 1em 0em; }
