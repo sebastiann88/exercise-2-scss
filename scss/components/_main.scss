@@ -30,18 +30,13 @@ h3 {
     font-family: Helvetica, sans-serif;
 }
 
-.primary-btn {
-    @include button($primary, #fff, $primary-dark);
-}
-
 .main-button {
-    @include button($dark-blue, $white);
+    @include button($dark-blue, $white)
 }
 
 .secondary-button {
-    @include button($light-blue, $white);
+    @include button($light-blue, $white)
 }
-
 
 .button {
     display: inline-block;

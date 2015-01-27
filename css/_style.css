@@ -1,0 +1,147 @@
+/* are placeholders for storing information that you want to reuse throughout your styles.
+You can store things like color, font stacks, or any css vaue you think you might want to reuse.
+SCSS uses the '$' symbol to declare variables. */
+/* This file contains all your mixins */
+/* line 1, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+html {
+  padding: 0em; }
+
+/* line 5, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+body {
+  padding: 0em;
+  margin: 0em; }
+
+/* line 10, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+h1 {
+  font-size: 2.5em;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+  margin: 0em; }
+
+/* line 19, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+h2 {
+  font-size: 1.4em;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: Helvetica, sans-serif; }
+
+/* line 26, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+h3 {
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Helvetica, sans-serif; }
+
+/* line 33, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.main-button {
+  display: inline-block;
+  background-color: #1f4474;
+  border-radius: 10px;
+  padding: 0em 0.5em;
+  margin: 0em 0.5em;
+  color: #fff;
+  border: 0;
+  line-height: 1.5em;
+  text-decoration: none; }
+  /* line 31, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/mixins */
+  .main-button:hover {
+    color: #1f4474;
+    background-color: #fff;
+    text-decoration: none; }
+
+/* line 37, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.secondary-button {
+  display: inline-block;
+  background-color: #5f93d0;
+  border-radius: 10px;
+  padding: 0em 0.5em;
+  margin: 0em 0.5em;
+  color: #fff;
+  border: 0;
+  line-height: 1.5em;
+  text-decoration: none; }
+  /* line 31, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/mixins */
+  .secondary-button:hover {
+    color: #5f93d0;
+    background-color: #fff;
+    text-decoration: none; }
+
+/* line 41, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.button {
+  display: inline-block;
+  background-color: #1f4474;
+  border-radius: 10px;
+  padding: 0em 0.5em;
+  margin: 0.3em 0.5em;
+  color: #fff;
+  border: 0;
+  line-height: 1.5em;
+  text-decoration: none; }
+
+/* line 53, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.button:hover {
+  color: #1f4474;
+  background-color: #fff;
+  text-decoration: none; }
+
+/* line 60, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.button2 {
+  display: inline-block;
+  background-color: #5f93d0;
+  border-radius: 10px;
+  padding: 0em 0.5em;
+  margin: 0em 0.5em;
+  color: #fff;
+  border: 0;
+  line-height: 1.5em;
+  text-decoration: none; }
+
+/* line 72, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.button2:hover {
+  color: #5f93d0;
+  background-color: #fff;
+  text-decoration: none; }
+
+/* line 78, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.row {
+  display: inline-block; }
+
+/* line 82, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.row2 {
+  display: inline-block;
+  margin: 1em 2em;
+  padding: 0.2em; }
+
+/* line 88, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.float-left {
+  float: left; }
+
+/* line 92, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.header {
+  background-color: #5f93d0;
+  margin: 0em;
+  padding: 2em; }
+
+/* line 98, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.white {
+  color: white; }
+
+/* line 102, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.center {
+  margin: auto 40%; }
+
+/* line 106, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+li {
+  list-style-type: none;
+  text-decoration: none; }
+
+/* line 111, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+a {
+  text-decoration: none; }
+
+/* line 115, /Users/SebastianNadeau/Desktop/exercise-2-scss/scss/components/main */
+.border {
+  border-top: solid 0.15em #5f93d0;
+  padding: 1em 0em; }
